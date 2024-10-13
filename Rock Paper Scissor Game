@@ -32,9 +32,10 @@ void winner(int playerchoice, int computerchoice) {
 int main() {
     srand(time(0));
     cout << "Welcome to the RocK, Paper, Scissor! Game." << endl;
-        displaychoices();
-        int playerchoice = getplayerchoice();
-        int computerchoice = getcomputerchoice();
-        cout << "The computer's choice is: " << computerchoice << endl;
-        winner(playerchoice, computerchoice);
+    displaychoices();
+    int playerchoice = getplayerchoice();
+    int computerchoice = getcomputerchoice();
+    cout << "The computer's choice is: " << computerchoice << endl;
+    winner(playerchoice, computerchoice);
+    return 0;
 }
